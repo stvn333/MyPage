@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;}
+caption{
+    color: blue;
+    font-family: Montserrat;
+    font-size: 45px;
+    line-height: 70px; /*para separar el titulo tanto del ala linea de arriba como de la tabla*/
+}
+th{
+    color: beige;
+    background-color: steelblue;
+
+}
+tr:nth-child(even){
+    background-color:#B7E0DB;
+
+}  
+/*renglones impares*/
+tr:nth-child(odd){
+    background-color:#9DE1DE;
+
+}
+td{
+    text-align: center;
+}
